@@ -29,12 +29,14 @@ An elegant, production-ready RESTful API built with **Spring Boot** and **Postgr
 ### Prerequisites
 * JDK 17 or higher
 * Maven 3.x
-* PostgreSQL instance running locally or on Docker
+* PostgreSQL instance running locally or via Docker
+* Git installed on your machine
 
-### Configuration
-Update the `src/main/resources/application.properties` with your PostgreSQL credentials:
+### 👥 How to Clone and Run Locally
 
-```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/book
-spring.datasource.username=YOUR_POSTGRES_USER
-spring.datasource.password=YOUR_POSTGRES_PASSWORD
+Segui questi passaggi per clonare il repository e avviare il progetto sul tuo computer:
+
+1. **Clona il repository:**
+   Apri il terminale e scrivi il seguente comando:
+   ```bash
+   git clone [https://github.com/Waldren56/Books-REST-API.git](https://github.com/Waldren56/Books-REST-API.git)
