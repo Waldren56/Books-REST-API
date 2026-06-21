@@ -14,7 +14,6 @@ public class BookConfig {
     @Bean
     CommandLineRunner commandLineRunner(BookRepository bookRepository) {
         return args -> {
-            // IL CONTROLLO VA MESSO QUI DENTRO
             if (bookRepository.count() == 0) {
                 Book whistler = new Book(
                         "Whistler",
