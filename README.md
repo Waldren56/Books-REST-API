@@ -39,4 +39,4 @@ Segui questi passaggi per clonare il repository e avviare il progetto sul tuo co
 1. **Clona il repository:**
    Apri il terminale e scrivi il seguente comando:
    ```bash
-   git clone [https://github.com/Waldren56/Books-REST-API.git](https://github.com/Waldren56/Books-REST-API.git)
+   git clone https://github.com/Waldren56/Books-REST-API.git
